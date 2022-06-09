@@ -1,12 +1,20 @@
 package email
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/router"
+	"github.com/flipped-aurora/gva-plugins/email/global"
+	"github.com/flipped-aurora/gva-plugins/email/router"
 	"github.com/gin-gonic/gin"
 )
 
-type emailPlugin struct{}
+type emailPlugin struct {
+	To       string
+	From     string
+	Host     string
+	Secret   string
+	Nickname string
+	Port     int
+	IsSsl    bool
+}
 
 func CreateEmailPlug(To, From, Host, Secret, Nickname string, Port int, IsSSL bool) *emailPlugin {
 	global.GlobalConfig.To = To
@@ -17,6 +25,7 @@ func CreateEmailPlug(To, From, Host, Secret, Nickname string, Port int, IsSSL bo
 	global.GlobalConfig.Port = Port
 	global.GlobalConfig.IsSSL = IsSSL
 	return &emailPlugin{}
+
 }
 
 func (*emailPlugin) Register(group *gin.RouterGroup) {

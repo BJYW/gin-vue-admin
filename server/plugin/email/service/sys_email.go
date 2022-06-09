@@ -1,10 +1,11 @@
 package service
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/utils"
+	"github.com/flipped-aurora/gva-plugins/email/utils"
 )
 
-type EmailService struct{}
+type EmailService struct {
+}
 
 //@author: [maplepie](https://github.com/maplepie)
 //@function: EmailTest

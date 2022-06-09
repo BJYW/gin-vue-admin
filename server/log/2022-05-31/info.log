@@ -1,6 +1,0 @@
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.452	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:32	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.452	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:36	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.453	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:38	register swagger handler
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.454	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:80	router register success
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.455	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/05/31 - 17:00:29.455	[31merror[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/core/server.go:48	net.Listen error: listen tcp :8888: bind: address already in use
