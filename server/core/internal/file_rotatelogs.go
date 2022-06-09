@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/global"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap/zapcore"
 	"os"

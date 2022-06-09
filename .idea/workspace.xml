@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ca4fe3-7682-4297-a948-6ad2c1886307" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/log/2022-06-09/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/log/2022-06-09/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/log/2022-06-09/warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README-en.md" beforeDir="false" afterPath="$PROJECT_DIR$/README-en.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -45,7 +48,6 @@
       <change beforePath="$PROJECT_DIR$/server/core/zap.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/core/zap.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/global/global.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/initialize/db_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/db_list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/initialize/ensure_tables.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/ensure_tables.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/initialize/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm.go" afterDir="false" />
@@ -59,12 +61,6 @@
       <change beforePath="$PROJECT_DIR$/server/initialize/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/initialize/timer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/timer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/initialize/validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/validator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/error.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/error.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/info.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/info.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/log/2022-06-09/warn.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/2022-06-09/warn.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/middleware/casbin_rbac.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/casbin_rbac.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/middleware/cors.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/cors.go" afterDir="false" />
@@ -106,38 +102,12 @@
       <change beforePath="$PROJECT_DIR$/server/model/system/sys_operation_record.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/system/sys_operation_record.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/model/system/sys_system.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/system/sys_system.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/model/system/sys_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/system/sys_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/api/sys_zabbix.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/api/sys_zabbix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/router/sys_zabbix.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/router/sys_zabbix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/service/sys_zabbix.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/service/sys_zabbix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/utils/get_AlertTiggers.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/utils/get_AlertTiggers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/Zabbix/utils/zabbix.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/Zabbix/utils/zabbix.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/plugin/email/api/sys_email.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/api/sys_email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/plugin/email/global/gloabl.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/global/gloabl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/plugin/email/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/plugin/email/router/sys_email.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/router/sys_email.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/api/es.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/api/es.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/global/gloabl.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/global/gloabl.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/initialize/es.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/initialize/es.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/model/response/es.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/model/response/es.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/router/es.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/router/es.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/es/service/es.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/es/service/es.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/notify/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/notify/api/api.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/notify/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/notify/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/pprof/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/pprof/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/pprof/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/pprof/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/ali_sms/api/sys_email.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/ali_sms/api/sys_email.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/ali_sms/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/ali_sms/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/ali_sms/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/ali_sms/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/ali_sms/router/alisms.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/ali_sms/router/alisms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/ali_sms/service/sys_sms.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/ali_sms/service/sys_sms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/api/sys_sms.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/api/sys_sms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/router/tencentsms.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/router/tencentsms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/service/sms.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/sms/tencent_sms/service/sms.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/plugin/email/service/sys_email.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/service/sys_email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/plugin/email/utils/email.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/email/utils/email.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resource/autocode_template/readme.txt.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/server/resource/autocode_template/readme.txt.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resource/autocode_template/server/api.go.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/server/resource/autocode_template/server/api.go.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resource/autocode_template/server/model.go.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/server/resource/autocode_template/server/model.go.tpl" afterDir="false" />

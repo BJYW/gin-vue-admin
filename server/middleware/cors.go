@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/config"
+	"github.com/BJYW/gin-vue-admin/server/global"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

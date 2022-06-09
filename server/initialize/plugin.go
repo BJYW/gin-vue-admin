@@ -1,9 +1,9 @@
 package initialize
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/plugin"
+	"github.com/BJYW/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/plugin/email"
+	"github.com/BJYW/gin-vue-admin/server/utils/plugin"
 	"github.com/gin-gonic/gin"
 )
 

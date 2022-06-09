@@ -1,9 +1,9 @@
 package system
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	systemRes "github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"github.com/BJYW/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/model/common/response"
+	systemRes "github.com/BJYW/gin-vue-admin/server/model/system/response"
 	"github.com/gin-gonic/gin"
 	"github.com/mojocn/base64Captcha"
 	"go.uber.org/zap"

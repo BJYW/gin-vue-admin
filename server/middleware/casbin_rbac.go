@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/service"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/BJYW/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/model/common/response"
+	"github.com/BJYW/gin-vue-admin/server/service"
+	"github.com/BJYW/gin-vue-admin/server/utils"
 	"github.com/gin-gonic/gin"
 )
 

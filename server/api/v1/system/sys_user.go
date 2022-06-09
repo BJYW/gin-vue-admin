@@ -3,13 +3,13 @@ package system
 import (
 	"strconv"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	systemRes "github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/BJYW/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/model/common/request"
+	"github.com/BJYW/gin-vue-admin/server/model/common/response"
+	"github.com/BJYW/gin-vue-admin/server/model/system"
+	systemReq "github.com/BJYW/gin-vue-admin/server/model/system/request"
+	systemRes "github.com/BJYW/gin-vue-admin/server/model/system/response"
+	"github.com/BJYW/gin-vue-admin/server/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"

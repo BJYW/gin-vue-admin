@@ -2,7 +2,7 @@
 package {{.Package}}
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/BJYW/gin-vue-admin/server/global"
 )
 
 // {{.StructName}} 结构体

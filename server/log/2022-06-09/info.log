@@ -1,0 +1,6 @@
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:16.482	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:32	use middleware logger
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:16.482	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:36	use middleware cors
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:16.483	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:38	register swagger handler
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:16.485	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/initialize/router.go:80	router register success
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:16.485	[34minfo[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/BJYW/gin-vue-admin/server]2022/06/09 - 11:40:17.566	[31merror[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/core/server.go:48	accept tcp [::]:8888: use of closed network connection
