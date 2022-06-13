@@ -1,0 +1,1 @@
+[github.com/BJYW/gin-vue-admin/server]2022/06/10 - 14:44:26.050	[31merror[0m	/Users/yuewei/work/bjyw/gin-vue-admin/server/core/server.go:38	accept tcp [::]:8888: use of closed network connection
